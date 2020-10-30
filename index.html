@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- Font-awesome Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body class="times">
+    <!-- Background img -->
+    <div class="img-wrapper">
+        <img src="img2.jpg" alt="Background">
+    </div>
+    <!-- comment icon -->
+    <div class="add_conteiner">
+        <i class="fas fa-comment-medical"></i>
+    </div>
+    <!-- comment window -->
+    <div class="conteiner">
+        <div class="title">
+            <div class="text">New massage</div>
+            <i id="1" class="fas fa-window-minimize"></i>
+            <i id="2" class="fas fa-compress-alt"></i>
+            <i id="3" class="fas fa-times"></i>
+        </div>
+        <div class="body">
+            <div class="name">
+                <label for="name1">From Whom:</label>
+                <input type="text" id="name1" name="name1" placeholder=" Name or Company Name" required>
+            </div>
+            <div class="contact">
+                <label for="name2">Contact Info:</label>
+                <input type="text" id="name2" name="name2" placeholder=" Number or Mail" required>
+            </div>
+            <div class="subject">
+                <label for="name3">Subject:</label>
+                <input type="text" id="name3" name="name3" placeholder=" Aim Of Letter" required>
+            </div>
+            <div class="taxts">
+                <textarea name="name4" id="name4" ></textarea>
+            </div>
+        </div>
+        <div class="last_part">
+            <input type="submit" value="Submit">
+        </div>
+    </div>
+    <!-- Script Link -->
+    <script src="script.js"></script>
+</body>
+</html>
